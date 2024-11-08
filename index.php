@@ -22,6 +22,7 @@ session_start();
 <body>
         <div class="d-flex justify-content-center align-items-center vh-100">
         <div class="login-box card p-5 shadow-md" style="width: 20rem;">
+            <h4 class="text-center mb-4 text-dark">Want to know more?/h4>
             <h4 class="text-center mb-4 text-dark">Send messege</h4>
             <form id="emailForm" action="./actions/php/mailer.php" method="post">
                <input type="text" name="subject" class="form-control mb-3" placeholder="Subject" required>
